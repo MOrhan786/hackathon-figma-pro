@@ -1,12 +1,12 @@
 
 "use client"
 
-import { Bell, Filter, Heart, Search, Settings2, SettingsIcon } from 'lucide-react'
+import {  Search, Settings2, SettingsIcon } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import Image from 'next/image'
 import { BsBellFill, BsHeartFill } from 'react-icons/bs'
-import { GrSettingsOption, GrUserSettings } from 'react-icons/gr'
+
 
 
 
