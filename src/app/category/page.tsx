@@ -7,14 +7,9 @@ import { Button } from "@/components/ui/button";
 
 import { Card } from "@/components/ui/card";
 import { cars } from "@/constant/cars";
-import { Link } from "lucide-react";
+
 import { BsHeartFill } from "react-icons/bs";
 
-interface FilterOption {
-  label: string;
-  count: number;
-  checked?: boolean;
-}
 
 function CategorySection() {
   return (
