@@ -4,7 +4,11 @@ import React from "react";
 
 import Image from "next/image";
 import PickUp from "./pickUp";
-import PouplerCar from "./populerCar";
+
+
+import CardsCar from "./cardsCar";
+import { Button } from "./ui/button";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -38,9 +42,28 @@ function HeroSection() {
         </div>
       </div>
      <PickUp/>
-     <br />
-     <PouplerCar/>
-     
+    
+     <CardsCar/>
+
+
+      {/* button */}
+      <div className="w-[734px] h-[44px]  mt-16 ml-[370px] flex items-center justify-between ">
+            <div className=" w-[156px]  ">
+              <Link
+                href={"/category"}
+                className="text-[16px] leading-6 hover:text-gray-600 "
+              >
+                <Button className="bg-[#3563E9] hover:bg-[#3563E9]/90 text-white px-5 py-3 rounded ml-40 ">
+                  Show more car
+                </Button>
+              </Link>
+            </div>
+            
+            <span className="font-medium text-[14px] leading-[21px] text-right text-[#90A3BF] ">
+              120 Car
+            </span>
+
+       </div>
     </div>
   );
 }

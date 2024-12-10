@@ -1,8 +1,4 @@
-
-
 import HeroSection from "@/components/heroSection";
-
-
 
 
 
@@ -11,6 +7,8 @@ export default function Home() {
     <div  className="  px-[65px] overflow-hidden ">
       
       <HeroSection/>
+      
+     
     
      
       

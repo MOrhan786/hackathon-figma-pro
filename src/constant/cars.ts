@@ -1,6 +1,5 @@
 // constants/cars.ts
-
-export const cars = [
+export const cars1 =[
   {
     id: 1,
     name: "Koenigsegg",
@@ -41,11 +40,11 @@ export const cars = [
     capacity: "2 People",
     image: "/images/car4.svg",
   },
-];
 
+]
 
-
-export const cars2 = [
+export const cars = [
+ 
   {
     id: 1,
     name: "AllNew Rush",
@@ -86,9 +85,6 @@ export const cars2 = [
     capacity: "6 People",
     image: "/images/car04.png",
   },
-];
-
-export const cars3 = [
   {
     id: 1,
     name: "MGZX Exclusice",
@@ -130,4 +126,10 @@ export const cars3 = [
     image: "/images/car004.png",
   },
 ];
+
+
+
+
+
+
 
