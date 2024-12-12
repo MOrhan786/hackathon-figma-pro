@@ -8,7 +8,7 @@ export const cars1 =[
     fuel: "90L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/car1.svg",
+    image: "/images/Car1.svg",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ export const cars1 =[
     fuel: "80L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/car2.svg",
-  },
+    image: "/images/Car2.svg",
+  },  
   {
     id: 3,
     name: "Rolls-Royce",
@@ -28,7 +28,7 @@ export const cars1 =[
     fuel: "95L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/car3.svg",
+    image: "/images/Car3.svg",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const cars1 =[
     fuel: "80L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/car4.svg",
+    image: "/images/Car4.svg",
   },
 
 ]
@@ -53,7 +53,7 @@ export const cars = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/car01.png",
+    image: "/images/Car01.png",
   },
   {
     id: 2,
@@ -63,7 +63,7 @@ export const cars = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/car02.png",
+    image: "/images/Car02.png",
   },
   {
     id: 3,
@@ -73,7 +73,7 @@ export const cars = [
     fuel: "90L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/car03.png",
+    image: "/images/Car03.png",
   },
   {
     id: 4,
@@ -83,7 +83,7 @@ export const cars = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/car04.png",
+    image: "/images/Car04.png",
   },
   {
     id: 1,
@@ -93,7 +93,7 @@ export const cars = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/car001.png",
+    image: "/images/Car001.png",
   },
   {
     id: 2,
@@ -103,7 +103,7 @@ export const cars = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/car002.png",
+    image: "/images/Car002.png",
   },
   {
     id: 3,
@@ -113,7 +113,7 @@ export const cars = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/car001.png",
+    image: "/images/Car001.png",
   },
   {
     id: 4,
@@ -123,7 +123,7 @@ export const cars = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/car004.png",
+    image: "/images/Car004.png",
   },
 ];
 
