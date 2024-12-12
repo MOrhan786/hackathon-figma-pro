@@ -8,7 +8,7 @@ export const cars1 =[
     fuel: "90L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/car1.svg",
+    image: "/images/Car1.svg",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const cars1 =[
     fuel: "80L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/car2.svg",
+    image: "/images/Car2.svg",
   },  
   {
     id: 3,
