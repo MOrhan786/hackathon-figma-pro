@@ -14,7 +14,7 @@ function HeroSection() {
   return (
     <div className="w-full h-[2129px]">
       {/* Top Car Section */}
-      <div className="w-auto max-w-[1400px] mx-auto h-[360px] flex items-center justify-between gap-6 p-4">
+      <div className="w-auto max-w-[1400px] mx-auto h-[360px] flex items-center justify-between gap-6 p-4 ">
         {/* Left Car Image */}
         <div className="bg-white w-[640px]">
           <div className="w-full h-full">

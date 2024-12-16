@@ -4,18 +4,16 @@ import PickUp from "@/components/pickUp";
 import SideNavbar from "@/components/sideNavbar";
 import { Button } from "@/components/ui/button";
 
-
 import { Card } from "@/components/ui/card";
-import { cars } from "@/constant/cars";
+import { cars2 } from "@/constant/cars";
 
 import { BsHeartFill } from "react-icons/bs";
-
 
 function CategorySection() {
   return (
     <section className=" w-full max-w-[1440px] h-[1616px] px-[65px]  max-auto grid lg:grid-cols-3  md:grid-cols-1 gap-8">
       {/* grid 1 */}
-      <div className="py-5 text-center row-span-3 w-[360px] h-[1600px] mt-[20px] ">
+      <div className="py-5 text-center row-span-3 w-[360px] h-[1600px] mt-[20px]  ">
         <SideNavbar />
       </div>
 
@@ -38,7 +36,7 @@ function CategorySection() {
             </span>
           </div>
           <div className="mt-5 px-5 grid sm:grid-cols-1 lg:grid-cols-3 gap-5 ">
-            {cars.map((car) => (
+            {cars2.map((car) => (
               <Card
                 key={car.id}
                 className="relative w-full h-[378px] p-6 bg-[#FFFFFF] rounded-[10px]  "
@@ -113,25 +111,15 @@ function CategorySection() {
               </Card>
             ))}
           </div>
-
-  
         </section>
-             {/* button */}
-             <div className=" text-white px-5 py-3 rounded ml-40 ">
-              <a href="/carDetail">
-              <button className="bg-[#3563E9] hover:bg-[#3563E9]/90 text-white px-5 py-3 rounded ml-40 " >
-                Shoe more Detail
-
-                </button>
-              </a>
-          
-          
-      
-             
-             </div>
-           
-
-       
+        {/* button */}
+        <div className=" text-white px-5 py-3 rounded ml-40 ">
+          <a href="/carDetail">
+            <button className="bg-[#3563E9] hover:bg-[#3563E9]/90 text-white px-5 py-3 rounded ml-40 ">
+              Show more Detail
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -1,3 +1,4 @@
+import { Smartphone } from "lucide-react";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,7 +9,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
   	extend: {
+		screens: {
+			sm: { max: "375px" },
+			
+		},
+
 		
 			fontFamily: {
 				'plus-jakarta-sans': ['"Plus Jakarta Sans"', 'sans-serif'], // Add this line
