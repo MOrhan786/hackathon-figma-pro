@@ -236,7 +236,7 @@ export const cars3 =[
     fuel: "90L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/Car1.svg",
+    image: "/images/Car1.png",
   },
   {
     id: 2,
@@ -246,7 +246,7 @@ export const cars3 =[
     fuel: "80L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/Car2.svg",
+    image: "/images/Car2.png",
   },  
   {
     id: 3,
