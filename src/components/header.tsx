@@ -83,8 +83,8 @@ function header() {
             <Image
               src="/images/t-img.png"
               alt="Profile"
-              width={11}
-              height={11}
+              width={44}
+              height={44}
               className="object-cover"
             />
           </Button>
