@@ -15,7 +15,9 @@ import {
   } from "@/components/ui/card";
   import { Input } from "@/components/ui/input";
   import { Label } from "@radix-ui/react-label"; // Corrected Label import
+  import Image from 'next/image'
   import React from 'react';
+import Link from 'next/link'
   
   function RentCar() {
     return (
@@ -96,10 +98,10 @@ import {
             </div>
             {/* img div */}
             <div className=' w-auto h-[108px] mt-[24px]  flex items-center justify-between gap-2'> 
-               <img src="/images/blue-car.svg" alt=" blue car " className='w-[132px] h-[108px] ' />
+               <Image src="/images/blue-car.svg" alt=" blue car " width={132} height={108} />
                 <div className=' w-[220px] h-[72px] flex flex-col items-start  ' >
                 <h1 className='   text-[#1A202C]    font-bold text-xl leading-[48px] text-left tracking-[-0.03em]  '>Nissan GT - R</h1>
-                <img src="/images/Review-star.svg" alt=" yellow-star " />
+                <img src="/images/Review-star.svg" alt=" yellow-star " width={220} height={24} />
               </div>
             </div>
           
@@ -316,8 +318,8 @@ import {
               <span className="font-semibold text-gray-900  ml-[-300px]">Credit Card</span>
               <div className="flex justify-end mt-4">
               <div className="flex items-center gap-3">
-                <img src="/images/visa-1.svg" alt="Visa" className="h-5" />
-                <img src="/images/visa-2.svg" alt="Mastercard" className="h-5" />
+                <Image src="/images/visa-1.svg" alt="Visa" width={48} height={16} />
+                <Image src="/images/visa-2.svg" alt="Mastercard" width={32} height={20}/>
               </div>
             </div>
             </div>
@@ -368,7 +370,7 @@ import {
             <RadioGroupItem value="paypal" id="paypal" />
             <Label htmlFor="paypal" className="font-semibold">PayPal</Label>
             <div className="ml-auto">
-              <img src="/images/PayPal-1.svg" alt="PayPal" className="h-6" />
+              <Image src="/images/PayPal-1.svg" alt="PayPal"width={100} height={24}  />
             </div>
           </div>
 
@@ -376,7 +378,7 @@ import {
             <RadioGroupItem value="bitcoin" id="bitcoin" />
             <Label htmlFor="bitcoin" className="font-semibold">Bitcoin</Label>
             <div className="ml-auto">
-              <img src="/images/bitcoin.svg" alt="Bitcoin" className="h-[20px] " />
+              <img src="/images/bitcoin.svg" alt="Bitcoin" width={90} height={20} />
             </div>
           </div>
         </RadioGroup>
@@ -424,11 +426,11 @@ import {
 
       
       
-       <a  href="/adminCar">
+       <Link  href="/adminCar">
                <Button className="px-6 py-4 h-14 text-base bg-[#3563E9] hover:bg-[#3563E9]/90 text-white rounded">
                Rent Now
                </Button>
-               </a>
+               </Link>
 
 
       {/* Security Section */}

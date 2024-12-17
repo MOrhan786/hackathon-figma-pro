@@ -2,6 +2,7 @@ import CarStats from '@/components/carStats';
 import MapCar from '@/components/mapCar';
 import { SideBar } from '@/components/sideBar';
 import React from 'react'
+import Image from 'next/image';
 
 function AdminCar() {
   return (
@@ -37,16 +38,16 @@ function AdminCar() {
            {/* <div className='  h-[476px]'> */}
                <div className='  grid  grid-rows-4 gap-y-[32px] mx-[24px] '>
             <div className=' w-auto h-[70px] '>
-               <img src="images/R-1-car.svg" alt="img" />
+               <Image src="images/R-1-car.svg" alt="img" width={476} height={70} />
             </div>
             <div className=' w-auto h-[70px] '>
-            <img src="images/R-2.svg" alt="img" />
+            <Image src="images/R-2.svg" alt="img"width={476} height={70} />
             </div>
              <div className=' w-auto h-[70px] '  >
-             <img src="images/R-3.svg" alt="img" />
+             <Image src="images/R-3.svg" alt="img" width={476} height={70} />
              </div>
              <div className=' w-auto h-[70px] '>
-             <img src="images/R-4.svg" alt="img" />
+             <Image src="images/R-4.svg" alt="img" width={476} height={70} />
              </div>
             
           

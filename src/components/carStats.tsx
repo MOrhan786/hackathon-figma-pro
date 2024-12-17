@@ -2,7 +2,7 @@
 
 import { Card } from "@/components/ui/card"
 import { MoreHorizontal } from 'lucide-react'
-// import { DonutChart } from "@tremor/react"
+import Image from 'next/image'
 
 const carData = [
   { name: "Sport Car", value: 17439, color: "#0D3559" },
@@ -32,7 +32,7 @@ export default function CarStats() {
 
         {/* Right side - Chart and legend */}
         <div className="absolute  ">
-         <img src="/images/Chart (1).svg" alt="img" width={150} height={150} />
+         <Image src="/images/Chart (1).svg" alt="img" width={150} height={150} />
         </div>
       </div>
 

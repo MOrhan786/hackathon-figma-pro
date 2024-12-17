@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import { BsHeartFill } from "react-icons/bs";
 import { cars, cars1 } from "@/constant/cars";
 import { Card } from "./ui/card";
+import Image from "next/image";
 
 function Cards() {
   return (
@@ -42,7 +43,7 @@ function Cards() {
 
               {/* Car Image */}
               <div className="relative mt-8 ">
-                <img
+                <Image
                   src={car.image}
                   alt={car.name}
                   className="mx-auto"
@@ -55,7 +56,7 @@ function Cards() {
               {/* Specifications */}
               <div className="  w-[190px] h-[24] flex gap-4 mr-1   mt-16 mb-6">
                 <div className=" w-[58px] h-full flex items-center gap-1.5">
-                  <img
+                  <Image
                     src="/images/petrol.png"
                     alt="petrol-img"
                     width={58}
@@ -63,7 +64,7 @@ function Cards() {
                   />
                 </div>
                 <div className=" w-[79px]  ">
-                  <img
+                  <Image
                     src="/images/menue.png"
                     alt="petrol-img"
                     width={79}
@@ -71,7 +72,7 @@ function Cards() {
                   />
                 </div>
                 <div className=" w-[90px]  ">
-                  <img
+                  <Image
                     src="/images/people.png"
                     alt="petrol-img"
                     width={90}
@@ -130,7 +131,7 @@ function Cards() {
 
               {/* Car Image */}
               <div className="relative mt-8 ">
-                <img
+                <Image
                   src={car.image}
                   alt={car.name}
                   className="mx-auto"
@@ -143,7 +144,7 @@ function Cards() {
               {/* Specifications */}
               <div className="  w-[190px] h-[24] flex gap-4 mr-1   mt-16 mb-6">
                 <div className=" w-[58px] h-full flex items-center gap-1.5">
-                  <img
+                  <Image
                     src="/images/petrol.png"
                     alt="petrol-img"
                     width={58}
@@ -151,7 +152,7 @@ function Cards() {
                   />
                 </div>
                 <div className=" w-[79px]  ">
-                  <img
+                  <Image
                     src="/images/menue.png"
                     alt="petrol-img"
                     width={79}
@@ -159,7 +160,7 @@ function Cards() {
                   />
                 </div>
                 <div className=" w-[90px]  ">
-                  <img
+                  <Image
                     src="/images/people.png"
                     alt="petrol-img"
                     width={90}
@@ -183,9 +184,7 @@ function Cards() {
             </Card>
           ))}
         </div>
-
-      
-        </div>
+       </div>
       </section>
     </div>
   );

@@ -3,6 +3,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import Image from "next/image"
 
 export default function MapCar() {
   return (
@@ -15,15 +16,17 @@ export default function MapCar() {
         {/* Map Section */}
       
            
-       <img src="/images/Maps.svg" alt="maps-img" width={486} height={272} className='mt-[24px] px-[24px] mb-[32px] rounded-[10px] ' />
+       <Image src="/images/Maps.svg" alt="maps-img" width={486} height={272} className='mt-[24px] px-[24px] mb-[32px] rounded-[10px] ' />
 
         {/* Car Details */}
         <div className="flex items-start gap-4">
           <div className="w-[132px] h-[72px] bg-[#3563E9] rounded-lg relative overflow-hidden">
-            <img 
+            <Image 
               src="/images/car-blue1.svg" 
               alt="Car thumbnail"
-              className="w-full h-full object-cover"
+              width={132}
+              height={72}
+              className="object-cover"
             />
           </div>
           <div>

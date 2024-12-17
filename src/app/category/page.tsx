@@ -9,6 +9,8 @@ import { cars2 } from "@/constant/cars";
 
 import { BsHeartFill } from "react-icons/bs";
 
+import Image from "next/image";
+
 function CategorySection() {
   return (
     <section className=" w-full max-w-[1440px] h-[1616px] px-[65px]  max-auto grid lg:grid-cols-3  md:grid-cols-1 gap-8">
@@ -58,20 +60,20 @@ function CategorySection() {
 
                 {/* Car Image */}
                 <div className="relative mt-8 ">
-                  <img
+                  <Image
                     src={car.image}
                     alt={car.name}
                     className="mx-auto"
                     width={232}
                     height={72}
-                  />
+                  />I  
                   <div className="absolute bottom-0 left-0 w-full h-[68px]  bg-gradient-to-t from-white to-transparent " />
                 </div>
 
                 {/* Specifications */}
                 <div className="  w-[190px] h-[24] flex gap-4 mr-1   mt-16 mb-6">
                   <div className=" w-[58px] h-full flex items-center gap-1.5">
-                    <img
+                    <Image
                       src="/images/petrol.png"
                       alt="petrol-img"
                       width={58}
@@ -79,7 +81,7 @@ function CategorySection() {
                     />
                   </div>
                   <div className=" w-[79px]  ">
-                    <img
+                    <Image
                       src="/images/menue.png"
                       alt="petrol-img"
                       width={79}
@@ -87,7 +89,7 @@ function CategorySection() {
                     />
                   </div>
                   <div className=" w-[90px]  ">
-                    <img
+                    <Image
                       src="/images/people.png"
                       alt="petrol-img"
                       width={90}

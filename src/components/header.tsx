@@ -5,6 +5,7 @@ import {  Search, Settings2, SettingsIcon } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { BsBellFill, BsHeartFill } from 'react-icons/bs'
+import Image from 'next/image'
 
 
 
@@ -79,10 +80,12 @@ function header() {
             variant="outline"
             className="h-11 w-11 p-0 rounded-full border-[rgba(195,212,233,0.4)] overflow-hidden"
           >
-            <img
+            <Image
               src="/images/t-img.png"
               alt="Profile"
-              className="h-full w-full object-cover"
+              width={11}
+              height={11}
+              className="object-cover"
             />
           </Button>
         </div>
