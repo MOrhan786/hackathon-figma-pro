@@ -101,7 +101,7 @@ import Link from 'next/link'
                <Image src="/images/blue-car.svg" alt=" blue car " width={132} height={108} />
                 <div className=' w-[220px] h-[72px] flex flex-col items-start  ' >
                 <h1 className='   text-[#1A202C]    font-bold text-xl leading-[48px] text-left tracking-[-0.03em]  '>Nissan GT - R</h1>
-                <img src="/images/Review-star.svg" alt=" yellow-star " width={220} height={24} />
+                <Image src="/images/Review-star.svg" alt=" yellow-star " width={220} height={24} />
               </div>
             </div>
           
@@ -378,7 +378,7 @@ import Link from 'next/link'
             <RadioGroupItem value="bitcoin" id="bitcoin" />
             <Label htmlFor="bitcoin" className="font-semibold">Bitcoin</Label>
             <div className="ml-auto">
-              <img src="/images/bitcoin.svg" alt="Bitcoin" width={90} height={20} />
+              <Image src="/images/bitcoin.svg" alt="Bitcoin" width={90} height={20} />
             </div>
           </div>
         </RadioGroup>

@@ -84,8 +84,8 @@ function CarDetail() {
         </div>
 
         <p className="mt-8 font-normal text-lg leading-relaxed text-[#596780] text-left">
-          NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most
-       unforgiving proving ground, the "race track".
+       NISMO has become the embodiment of Nissan&apos;s outstanding performance, inspired by the most
+        unforgiving proving ground, the &quot;race track&quot;.
         </p>
 
         <div className="mt-8 grid grid-cols-2 gap-11">
