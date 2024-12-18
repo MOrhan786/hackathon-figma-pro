@@ -26,10 +26,10 @@ function Cards() {
           {cars1.map(( car) => (
             <Card
               key={car.id}
-              className="relative w-full h-[388px] p-6 bg-[#FFFFFF] rounded-[10px]  "
+              className="relative w-full h-[388px] p-6 bg-[#FFFFFF] rounded-[10px]   "
             >
               {/* Header Section */}
-              <div className="flex justify-between items-start">
+              <div className="flex justify-between items-start ">
                 <div className="flex flex-col gap-1">
                   <h3 className="text-[20px] font-bold text-[#1A202C]">
                     {car.name}

@@ -378,7 +378,7 @@ import Link from 'next/link'
             <RadioGroupItem value="bitcoin" id="bitcoin" />
             <Label htmlFor="bitcoin" className="font-semibold">Bitcoin</Label>
             <div className="ml-auto">
-              <Image src="/images/bitcoin.svg" alt="Bitcoin" width={90} height={20} />
+              <Image src="/images/Bitcoin.svg" alt="Bitcoin" width={90} height={20} />
             </div>
           </div>
         </RadioGroup>
