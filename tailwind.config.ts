@@ -12,9 +12,8 @@ const config: Config = {
 
   	extend: {
 		screens: {
-			sm: { max: "375px" },
-			
-		},
+			sm: "375px", // Add a custom screen size for 375px
+		  },
 
 		
 			fontFamily: {

@@ -153,7 +153,7 @@ function CarDetail() {
             {cars3.map((car) => (
               <Card
                 key={car.id}
-                className="relative w-full h-[378px] p-6 bg-[#FFFFFF] rounded-[10px]  "
+                className="relative w-full h-[378px] p-6 bg-[#FFFFFF] rounded-[10px]  shadow-md transition-transform duration-300 hover:scale-105 "
               >
                 {/* Header Section */}
                 <div className="flex justify-between items-start">
@@ -248,7 +248,7 @@ function CarDetail() {
             {cars3.map((car) => (
               <Card
                 key={car.id}
-                className="relative w-full h-[378px] p-6 bg-[#FFFFFF] rounded-[10px]  "
+                className="relative w-full h-[378px] p-6 bg-[#FFFFFF] rounded-[10px]  shadow-md transition-transform duration-300 hover:scale-105 "
               >
                 {/* Header Section */}
                 <div className="flex justify-between items-start">

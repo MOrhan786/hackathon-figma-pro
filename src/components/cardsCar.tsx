@@ -9,8 +9,9 @@ import Image from "next/image";
 
 function Cards() {
   return (
+
     <div>
-      <section className="bg-gray-200 w-full h-auto mt-[36px]">
+      <section className="bg-[#F6F7F9] w-full h-auto mt-[36px]">
         {/* Header */}
         <div className="w-full h-[44px] flex justify-between items-center px-5">
           <span className="text-[#90A3BF] font-semibold text-[16px]">
@@ -20,13 +21,13 @@ function Cards() {
             View All
           </span>
         </div>
-
+        
         {/* Cards Section */}
-        <div className="mt-5 px-5 grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-5  ">
+        <div className="mt-5 px-5 grid grid-cols-1  sm:grid-cols-1 lg:grid-cols-4 lg:gap-5 sm:gap-3 ">
           {cars1.map(( car) => (
             <Card
               key={car.id}
-              className="relative w-full h-[388px] p-6 bg-[#FFFFFF] rounded-[10px]   "
+              className="relative w-full h-[388px] p-6 bg-[#FFFFFF] rounded-[10px]  shadow-md transition-transform duration-300 hover:scale-105  "
             >
               {/* Header Section */}
               <div className="flex justify-between items-start ">
@@ -108,13 +109,13 @@ function Cards() {
             View All
           </span>
         </div>
-
+              
         {/* Cards Section */}
-        <div className="mt-5 px-5 grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-5  ">
+        <div className="mt-5 px-5 grid grid-cols-1  sm:grid-cols-1 lg:grid-cols-4 gap-5  ">
           {cars.map((car) => (
             <Card
               key={car.id}
-              className="relative w-full h-[388px] p-6 bg-[#FFFFFF] rounded-[10px]  "
+              className="relative w-full h-[388px] p-6 bg-[#FFFFFF] rounded-[10px]  shadow-md transition-transform duration-300 hover:scale-105  "
             >
               {/* Header Section */}
               <div className="flex justify-between items-start">
