@@ -1,12 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @media (min-width:1350px) {
+  .payment{
+    flex-wrap: nowrap;
+  }
+}
+
+@layer utilities {
+ 
+} */
   
 body{
-  width: 100%;
-  max-width: 1440px;
-  margin: auto;
+  /* width: 100%;
+  max-width: 1440px; */
+  /* margin: 0; */
  background: #F6F7F9;
+ padding-left: 65px;
+ padding-right: 65px;
+
+
+
 
   }
 @layer base {
@@ -64,7 +79,7 @@ body{
     --chart-5: 340 75% 55%
   }
 }
-@layer base {
+/* @layer base {
   * {
     @apply border-border;
   }
@@ -80,4 +95,5 @@ body{
   .hover-zoom:hover {
     transform: scale(1.1);
   }
-}
+} */
+

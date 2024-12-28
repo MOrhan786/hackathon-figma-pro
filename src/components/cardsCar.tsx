@@ -7,11 +7,11 @@ import { cars, cars1 } from "@/constant/cars";
 import { Card } from "./ui/card";
 import Image from "next/image";
 
-function Cards() {
+ export function Cards() {
   return (
 
     <div>
-      <section className="bg-[#F6F7F9] w-full h-auto mt-[36px]">
+      <section className="bg-[#F6F7F9] w-full h-auto mt-[36px] ">
         {/* Header */}
         <div className="w-full h-[44px] flex justify-between items-center px-5">
           <span className="text-[#90A3BF] font-semibold text-[16px]">
@@ -27,7 +27,7 @@ function Cards() {
           {cars1.map(( car) => (
             <Card
               key={car.id}
-              className="relative w-full h-[388px] p-6 bg-[#FFFFFF] rounded-[10px]  shadow-md transition-transform duration-300 hover:scale-105  "
+              className="relative min-w-full max-h-[388px] p-6 bg-[#FFFFFF] rounded-[10px]  shadow-md transition-transform duration-300 hover:scale-105  "
             >
               {/* Header Section */}
               <div className="flex justify-between items-start ">
@@ -55,8 +55,8 @@ function Cards() {
               </div>
 
               {/* Specifications */}
-              <div className="  w-[190px] h-[24] flex gap-4 mr-1   mt-16 mb-6">
-                <div className=" w-[58px] h-full flex items-center gap-1.5">
+              <div className="  max-w-[190px] min-h-[24] flex gap-4 mr-1   mt-16 mb-6">
+                <div className=" max-w-[58px] min-h-full flex items-center gap-1.5">
                   <Image
                     src="/images/petrol.png"
                     alt="petrol-img"
@@ -111,7 +111,8 @@ function Cards() {
         </div>
               
         {/* Cards Section */}
-        <div className="mt-5 px-5 grid grid-cols-1  sm:grid-cols-1 lg:grid-cols-4 gap-5  ">
+        
+        <div className="mt-5 px-5 grid grid-cols-1  sm:grid-cols-1 lg:grid-cols-4 gap-5 ">
           {cars.map((car) => (
             <Card
               key={car.id}

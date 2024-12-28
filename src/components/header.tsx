@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 
 import { Search, Settings2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -8,10 +8,10 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <div className="w-full px-4 lg:px-[65px]">
+    <div className="w-full px-4 sm:px-6 md:px-8 lg:px-[65px] ">
       {/* Navbar */}
-      <nav className="h-[124px] bg-[#FFFFFF] border-b border-[rgba(195,212,233,0.4)]">
-        <div className="max-w-[1440px] mx-auto h-full flex items-center justify-between">
+      <nav className="  h-[80px] bg-[#FFFFFF] border-b border-[rgba(195,212,233,0.4)]">
+        <div className="max-w-[1440px]  mx-auto h-full flex items-center justify-between py-4 lg:py-0">
           {/* Logo */}
           <a
             href="#"
@@ -20,7 +20,7 @@ function Header() {
             MORENT
           </a>
 
-          {/* Search Bar */}
+          {/* Desktop Search Bar */}
           <div className="hidden sm:flex relative w-full max-w-[449px] h-[44px]">
             <div className="absolute left-3 top-1/2 -translate-y-1/2">
               <Search className="h-6 w-6 text-[#596780]" />
@@ -82,7 +82,7 @@ function Header() {
         {/* Search Bar for Small Screens */}
         <div className="sm:hidden mt-3 px-4">
           <div className="relative w-full h-[44px] flex items-center gap-2">
-            {/* Search Bar */}
+            {/* Search Input */}
             <div className="relative flex-grow h-full">
               <div className="absolute left-1 top-1/2 -translate-y-1/2">
                 <Search className="h-4 w-4 text-[#596780]" />
@@ -95,7 +95,7 @@ function Header() {
             </div>
 
             {/* Settings Icon */}
-            <div className="flex items-center justify-center w-12 h-12  border-[rgba(195,212,233,0.4)] text-[#596780] rounded-[10px] border-[2px]">
+            <div className="flex items-center justify-center w-12 h-12 border-[rgba(195,212,233,0.4)] text-[#596780] rounded-[10px] border-[2px]">
               <Settings2 className="h-6 w-6 text-[#596780]" />
             </div>
           </div>

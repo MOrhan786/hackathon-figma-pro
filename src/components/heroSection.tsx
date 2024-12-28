@@ -12,12 +12,11 @@ import Link from "next/link";
 
 function HeroSection() {
   return (
-    <div className="w-full h-[2129px]">
+    <div className="min-w-full  h-[2129px] mt-[32px] ">
       {/* Top Car Section */}
-      <div className="w-auto max-w-[1400px] mx-auto h-[360px] flex items-center justify-between gap-6 p-4 ">
+      <div className=" min-w-full  h-[375px] flex items-center justify-center relative gap-24 ">
         {/* Left Car Image */}
-        <div className="bg-white w-[640px] ">
-          <div className="w-full h-full">
+         <div className=" min-w-[327px] ">
             <Image
               src="/images/left-car.svg"
               alt="hero"
@@ -25,12 +24,12 @@ function HeroSection() {
               height={360}
               className="rounded-[10px] "
             />
-          </div>
-        </div>
+           </div>  
+        
 
         {/* Right Car Image */}
-        <div className="bg-white w-[640px]  ">
-          <div className="w-full h-full">
+    
+          <div className=" sm:flex hidden lg:inline-flex">
             <Image
               src="/images/r-car.svg"
               alt="hero"
@@ -38,16 +37,16 @@ function HeroSection() {
               height={360}
               className="rounded-[10px]"
             />
-          </div>
+       
         </div>
       </div>
      <PickUp/>
     
-     <CardsCar/>
+          <CardsCar/>
 
 
       {/* button */}
-      <div className="w-[734px] h-[44px]  mt-16 ml-[370px] flex items-center justify-between ">
+      <div className=" max-w-[734px] max-auto h-[44px]  mt-16 ml-[370px] flex items-center justify-between ">
             <div className=" w-[156px]  ">
               <Link
                 href={"/category"}

@@ -2,8 +2,10 @@ import Link from "next/link"
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-white py-16 px-4  ">
-      <div className="container mx-auto max-w-7xl  ">
+  
+
+    <footer className="w-full bg-white py-16">
+      <div className="container mx-auto max-w-7xl ">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-12  mr-[60px] ml-[60px] ">
           {/* Logo and Description */}
           <div className="lg:col-span-4">

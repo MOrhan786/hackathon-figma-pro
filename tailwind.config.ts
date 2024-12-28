@@ -1,4 +1,4 @@
-import { Smartphone } from "lucide-react";
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -7,19 +7,18 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+	
+	
   ],
   theme: {
 
   	extend: {
-		screens: {
-			sm: "375px", // Add a custom screen size for 375px
-		  },
-
 		
-			fontFamily: {
+
+		fontFamily: {
 				'plus-jakarta-sans': ['"Plus Jakarta Sans"', 'sans-serif'], // Add this line
 			
-			    sans: ['"SF Pro Display"', 'sans-serif'],
+			    'sans': ['"SF Pro Display"', 'sans-serif'],
 		  },
   		colors: {
 		
