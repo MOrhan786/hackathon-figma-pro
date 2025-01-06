@@ -4,8 +4,13 @@ export default function Footer() {
   return (
   
 
+<<<<<<< HEAD
     <footer className="w-full bg-white py-16 px-4 mt-[172px] ">
       <div className="container mx-auto max-w-7xl  ">
+=======
+    <footer className="w-full bg-white py-16">
+      <div className="container mx-auto max-w-7xl ">
+>>>>>>> a7519b108b369aac18848dc1718d99266fad7b80
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-12  mr-[60px] ml-[60px] ">
           {/* Logo and Description */}
           <div className="lg:col-span-4">
