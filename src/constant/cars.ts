@@ -4,12 +4,13 @@ export const cars1 =[
   {
     id: 1,
     name: "Koenigsegg",
-    type: "Sport",
+     type: "Sport",
     price: "$99.00",
     fuel: "90L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/Car1.png",
+    image: "/Car1.png",
+    spec: "/spec1.png",
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ export const cars1 =[
     fuel: "80L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/Car2.png",
+    image: "/Car2.png",
+    spec: "/spec2.png",
     
   },  
   {
@@ -30,7 +32,8 @@ export const cars1 =[
     fuel: "95L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/Car3.svg",
+    image: "/Car3.svg",
+    spec: "/spec3.png",
   },
   {
     id: 4,
@@ -40,7 +43,8 @@ export const cars1 =[
     fuel: "80L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/Car4.svg",
+    image: "/Car4.svg",
+    spec: "/spec4.png",
   },
 
 ]
@@ -55,7 +59,8 @@ export const cars = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car01.png",
+    image: "/Car01.png",
+    spec: "/spec1.png",
   },
   {
     id: 2,
@@ -65,7 +70,8 @@ export const cars = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car02.png",
+    image: "/Car02.png",
+    spec: "/spec2.png",
   },
   {
     id: 3,
@@ -75,7 +81,8 @@ export const cars = [
     fuel: "90L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car03.png",
+    image: "/Car03.png",
+      spec: "/spec3.png",
   },
   {
     id: 4,
@@ -85,7 +92,8 @@ export const cars = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car04.png",
+    image: "/Car04.png",
+      spec: "/spec4.png",
   },
   {
     id: 1,
@@ -95,7 +103,8 @@ export const cars = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/Car001.png",
+    image: "/Car001.png",
+      spec: "/spec5.png",
   },
   {
     id: 2,
@@ -105,7 +114,8 @@ export const cars = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car002.png",
+    image: "/Car002.png",
+      spec: "/spec6.png",
   },
   {
     id: 3,
@@ -115,7 +125,8 @@ export const cars = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/Car001.png",
+    image: "/Car001.png",
+    spec: "/spec7.png",
   },
   {
     id: 4,
@@ -125,7 +136,8 @@ export const cars = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car004.png",
+    image: "/Car004.png",
+      spec: "/spec8.png",
   },
   
 ];
@@ -142,7 +154,8 @@ export const cars2 = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car01.png",
+    image: "/Car01.png",
+    spec: "/spec1.png",
   },
   {
     id: 2,
@@ -152,7 +165,8 @@ export const cars2 = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car02.png",
+    image: "/Car02.png",
+    spec: "/spec2.png",
   },
   {
     id: 3,
@@ -162,7 +176,8 @@ export const cars2 = [
     fuel: "90L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car03.png",
+    image: "/Car03.png",
+    spec: "/spec3.png",
   },
   {
     id: 4,
@@ -172,7 +187,8 @@ export const cars2 = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car04.png",
+    image: "/Car04.png",
+    spec: "/spec4.png",
   },
   {
     id: 1,
@@ -182,7 +198,8 @@ export const cars2 = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/Car001.png",
+    image: "/Car001.png",
+    spec: "/spec5.png",
   },
   {
     id: 2,
@@ -192,7 +209,8 @@ export const cars2 = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car002.png",
+    image: "/Car002.png",
+      spec: "/spec6.png",
   },
   {
     id: 3,
@@ -202,7 +220,8 @@ export const cars2 = [
     fuel: "70L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/Car001.png",
+    image: "/Car001.png",
+    spec: "/spec7.png",
   },
   {
     id: 4,
@@ -212,7 +231,8 @@ export const cars2 = [
     fuel: "80L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car004.png",
+    image: "/Car004.png",
+    spec: "/spec8.png",
   },
   {
     id: 3,
@@ -222,13 +242,15 @@ export const cars2 = [
     fuel: "90L",
     transmission: "Manual",
     capacity: "6 People",
-    image: "/images/Car03.png",
+    image: "/Car03.png",
+      spec: "/spec3.png",
   },
 ];
 
 // car detail
 // constants/cars.ts
 export const cars3 =[
+  
   {
     id: 1,
     name: "Koenigsegg",
@@ -237,7 +259,8 @@ export const cars3 =[
     fuel: "90L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/Car1.png",
+    image: "/Car1.png",
+  spec: "/spec1.png",
   },
   {
     id: 2,
@@ -247,7 +270,8 @@ export const cars3 =[
     fuel: "80L",
     transmission: "Manual",
     capacity: "2 People",
-    image: "/images/Car2.png",
+    image: "/Car2.png",
+    spec: "/spec2.png",
   },  
   {
     id: 3,
@@ -257,11 +281,59 @@ export const cars3 =[
     fuel: "95L",
     transmission: "Manual",
     capacity: "4 People",
-    image: "/images/Car3.svg",
+    image: "/Car3.svg",
+      spec: "/spec3.png",
   },
 
 
 ]
+
+  export const cars4 =[
+  
+    {
+      id: 1,
+      name: "MGZX Exclusice",
+      type: "Hatchback",
+      price: "$76.00",
+      fuel: "70L",
+      transmission: "Manual",
+      capacity: "4 People",
+      image: "/Car001.png",
+      spec: "/spec5.png",
+    },
+    {
+      id: 2,
+      name: "NewMGZS",
+      type: "Suv",
+      price: "$80.00",
+      fuel: "80L",
+      transmission: "Manual",
+      capacity: "6 People",
+      image: "/Car002.png",
+        spec: "/spec6.png",
+    },
+    {
+      id: 3,
+      name: "MGZX Exclusice",
+      type: "Hatchback",
+      price: "$76.00",
+      fuel: "70L",
+      transmission: "Manual",
+      capacity: "4 People",
+      image: "/Car001.png",
+      spec: "/spec7.png",
+    },
+   
+  
+  
+  ]
+
+
+
+
+
+
+
 
 
 
