@@ -19,7 +19,7 @@ interface Review {
 const reviews: Review[] = [
   {
     id: 1,
-    image: "/images/t-img.png",
+    image: "/t-img.png",
     name: "Alex Stanton",
     position: "CEO",
     company: "Bukalapak",
@@ -27,11 +27,12 @@ const reviews: Review[] = [
     rating: 4,
     comment: "We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.",
     avatar: "/placeholder.svg?height=56&width=56"
+    
      
   },
   {
     id: 2,
-    image: "/images/review-img.svg",
+    image: "/review-img.svg",
     name: "Skylar Dias",
     position: "CEO",
     company: "Amazon",
@@ -40,11 +41,12 @@ const reviews: Review[] = [
     comment: "We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very polite.",
     avatar: "/placeholder.svg?height=56&width=56"
   }
+  
 ]
 
 export default function Reviews() {
   return (
-    <Card className="w-full max-w-4xl p-6 bg-white mt-[-20px] rounded-[10px]">
+    <Card className="w-full max-w-5xl p-6 bg-white mt-[-20px] rounded-[10px]">
       <div className="flex items-center gap-3 mb-8">
         <h2 className="text-xl font-semibold text-gray-900">Reviews</h2>
         <span className="px-5 py-1 text-sm font-bold text-white bg-blue-600 rounded">
@@ -62,7 +64,7 @@ export default function Reviews() {
                   alt={review.name}
                   width={56}
                   height={56}
-                  className="rounded-full"
+                  className="rounded-full "
                 />
                 <div>
                

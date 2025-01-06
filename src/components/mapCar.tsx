@@ -7,7 +7,7 @@ import Image from "next/image"
 
 export default function MapCar() {
   return (
-    <Card className=" bg-[#FFFFFF] w-auto h-[836px] col-span-2 row-span-3 rounded-[10px] ">
+    <Card className=" bg-[#FFFFFF] w-auto max-w-[524px] h-[836px] col-span-2 row-span-3 rounded-[10px] ">
       <CardHeader className="pb-0">
         <CardTitle className="text-[20px] font-bold text-[#1A202C]">Details Rental</CardTitle>
       </CardHeader>
@@ -16,13 +16,13 @@ export default function MapCar() {
         {/* Map Section */}
       
            
-       <Image src="/images/Maps.svg" alt="maps-img" width={486} height={272} className='mt-[24px] px-[24px] mb-[32px] rounded-[10px] ' />
+       <Image src="/Maps.svg" alt="maps-img" width={486} height={272} className='mt-[24px] px-[24px] mb-[32px] rounded-[10px] ' />
 
         {/* Car Details */}
         <div className="flex items-start gap-4">
           <div className="w-[132px] h-[72px] bg-[#3563E9] rounded-lg relative overflow-hidden">
             <Image 
-              src="/images/car-blue1.svg" 
+              src="/car-blue1.svg" 
               alt="Car thumbnail"
               width={132}
               height={72}

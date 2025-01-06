@@ -1,14 +1,27 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
-body{
-  width: 100%;
-  max-width: 1440px;
-  margin: auto;
- background: #F6F7F9;
 
+@media (min-width:1350px) {
+  .payment{
+    flex-wrap: nowrap;
   }
+}
+
+@layer utilities {
+  .border-border {
+    border-color: var(--border); /* Assuming you're using CSS variables */
+  }
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -35,7 +48,7 @@ body{
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem
+    --radius: 0.5rem;
   }
   .dark {
     --background: 222.2 84% 4.9%;
@@ -61,23 +74,44 @@ body{
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%
-  }
-}
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
+    --chart-5: 340 75% 55%;
   }
 }
 
-@layer utilities {
-  .hover-zoom {
-    transition: transform 0.3s ease-in-out;
+@layer base {
+ 
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
   }
-  .hover-zoom:hover {
-    transform: scale(1.1);
+}
+
+
+
+
+
+
+/* Animation */
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(100px); /* Start from bottom */
   }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+}
+
+/* Initial state for all blocks */
+#block1, #block2, #block3, #block4, #block5 {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* When the 'animate' class is added, trigger the animation */
+.animate {
+  animation: appear 1s ease-out forwards; /* Apply animation when element is in view */
 }

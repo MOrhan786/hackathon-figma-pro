@@ -30,7 +30,7 @@ export default function FilterSidebar() {
   ]
 
   return (
-    <aside className="w-[360px] h-screen border-r border-[#F3F5F7] bg-white p-8">
+    <aside className="w-[286px] h-screen border-r border-[#F3F5F7] bg-white p-8">
       {/* Type Section */}
       <div className="mb-12">
         <h3 className="text-xs font-semibold tracking-tight text-[#90A3BF] mb-7">

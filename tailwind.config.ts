@@ -1,7 +1,8 @@
-import { Smartphone } from "lucide-react";
+
+
 import type { Config } from "tailwindcss";
 
-const config: Config = {
+export default {
     darkMode: ["class"],
     content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,21 +10,8 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-
   	extend: {
-		screens: {
-			sm: "375px", // Add a custom screen size for 375px
-		  },
-
-		
-			fontFamily: {
-				'plus-jakarta-sans': ['"Plus Jakarta Sans"', 'sans-serif'], // Add this line
-			
-			    sans: ['"SF Pro Display"', 'sans-serif'],
-		  },
   		colors: {
-		
-			
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -73,5 +61,4 @@ const config: Config = {
   	}
   },
   plugins: [require("tailwindcss-animate")],
-};
-export default config;
+} satisfies Config;

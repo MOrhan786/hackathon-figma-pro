@@ -31,7 +31,7 @@ export function SideBar() {
 
   return (
    
-    <aside className="w-auto h-[900px] col-span-1 row-span-3  border-r border-[#F3F5F7] bg-white p-8">
+    <aside className="w-[286px] h-[900px] col-span-1 row-span-3  border-r border-[#F3F5F7] bg-white p-8">
       <div className="flex flex-col gap-[60px]">
         {/* Main Menu Section */}
         <div className="space-y-[42px]">
